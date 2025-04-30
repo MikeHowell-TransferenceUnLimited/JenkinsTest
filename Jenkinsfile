@@ -1,0 +1,13 @@
+pipeline {
+  agent any
+  stages {
+    stage('Hello'){
+	steps{
+	  steps{
+   	     sh 'echo Hello world'
+	     echo 'Build number is ${currentBuild.number}"
+	  }
+	}
+    }
+  }
+}
