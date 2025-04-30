@@ -5,7 +5,7 @@ pipeline {
 	steps{
 	  steps{
    	     sh 'echo Hello world'
-	     echo 'Build number is ${currentBuild.number}"
+	     echo 'Build number is ${currentBuild.number}'
 	  }
 	}
     }
